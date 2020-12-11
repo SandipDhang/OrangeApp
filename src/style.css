@@ -1,0 +1,176 @@
+.Headercontainer {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.Headercontainer select {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Headercontainer ul {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Headercontainer ul li {
+  list-style: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.listItem:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.OrderContainer {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  margin: 0px 200px;
+  width: 70%;
+  height: 600px;
+}
+
+.ImgHolder {
+  width: 540px;
+  height: 420px;
+  padding-right: 10px;
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.ImgHolder img {
+  height: 100%;
+  width: 100%;
+}
+
+.summaryHolder {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.summaryHolder > * {
+  margin-top: 10px;
+}
+
+.summaryHolder p {
+  padding: 0;
+  margin: 0px 0px 0px 20px;
+}
+
+.OrderTypeBtnContainer {
+  display: flex;
+  max-width: 200%;
+}
+
+.OrderTypeBtnContainer button {
+  width: 50%;
+  padding: 5px 40px;
+  margin-right: 5px;
+  background: none;
+  border: 1px solid #74c7fd;
+  color: #74c7fd;
+  transition: 0.5s all;
+  border-radius: 3px;
+}
+
+.deliveryDateBtnHolder {
+  display: flex;
+}
+
+.myBtn {
+  width: 50%;
+  padding: 5px 40px;
+  margin-right: 5px;
+  background: none;
+  border: 1px solid #74c7fd;
+  color: #74c7fd;
+  transition: 0.5s all;
+  border-radius: 3px;
+}
+
+.ProductHolder {
+  margin-top: 20px;
+  height: 200px;
+}
+
+.Products {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 20px;
+}
+
+.Products img {
+  height: 50px;
+  width: 50px;
+}
+
+.Desc {
+  font-size: 12px;
+  padding: 0px 20px;
+  font-weight: bold;
+}
+
+.AddBtn {
+  display: flex;
+  border: 1px solid #74c7fd;
+  padding: 5px 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.AddBtn > * {
+  padding: 0px 10px;
+}
+
+.minus,
+.plus {
+  display: none;
+}
+
+.OrderBtn {
+  width: 100%;
+  padding: 5px 40px;
+  margin-right: 5px;
+  background: none;
+  border: 1px solid #74c7fd;
+  color: #74c7fd;
+  transition: 0.5s all;
+  border-radius: 3px;
+}
+
+.active {
+  background: #74c7fd !important;
+  color: #fff !important;
+}
+
+.OrderTotal {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
